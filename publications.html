@@ -20,6 +20,10 @@ function toggle(ID){
         element.style.display = "none";
     }
 }
+function hide(ID){
+    var element = document.getElementById(ID);
+    element.style.display = "none";
+}
 </script>
 
 <body>
@@ -82,14 +86,15 @@ function toggle(ID){
         <p>with Ying-Chun Lin, Hsu-Chao Lai, Wang-Chien Lee, De-Nian Yang</p>
         <p>In 28th ACM International Conference on Information and Knowledge Management <b>(ACM CIKM 2019)</b>.</p>
         
-        <button onclick="toggle('cikm19-abs')">Abstract</button><button onclick="toggle('cikm19-bib')">BibTex</button>
+        <button onclick="toggle('cikm19-abs'); hide('cikm19-bib')">Abstract</button>
+        <button onclick="toggle('cikm19-bib'); hide('cikm19-abs')">BibTex</button>
         <div id="cikm19-abs" style="display:none">
             <ul>
                 With the rapid advent of Virtual Reality (VR) technology and virtual tour applications, there is a research need on spatial queries tailored for simultaneous movements in both the physical and virtual worlds. Traditional spatial queries, designed mainly for one world, do not consider the entangled dual worlds in VR. In this paper, we first investigate the fundamental shortest-path query in VR as the building block for spatial queries, aiming to avoid hitting boundaries and obstacles in the physical environment by leveraging Redirected Walking (RW) in Computer Graphics. Specifically, we first formulate Dual-world Redirected-walking Obstacle-free Path (DROP) to find the minimum-distance path in the virtual world, which is constrained by the RW cost in the physical world to ensure immersive experience in VR. We prove DROP is NP-hard and design a fully polynomial-time approximation scheme, Dual Entangled World Navigation (DEWN), by finding Minimum Immersion Loss Range (MIL Range). Afterward, we show that the existing spatial query algorithms and index structures can leverage DEWN as a building block to support kNN and range queries in the dual worlds of VR. Experimental results and a user study with implementation in HTC VIVE manifest that DEWN outperforms the baselines with smoother RW operations in various VR scenarios.
             </ul>
         </div>
         <div id="cikm19-bib" style="display:none">
-            <ul>
+            <p>
                 @inproceedings{DBLP:conf/cikm/KoLLLY19,
                   author    = {Shao{-}Heng Ko and
                                Ying{-}Chun Lin and
@@ -102,7 +107,7 @@ function toggle(ID){
                   publisher = {{ACM}},
                   year      = {2019}
                 }                
-            </ul>
+            </p>
         </div>
     </div>
 </div>       
