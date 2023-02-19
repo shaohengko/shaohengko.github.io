@@ -70,8 +70,11 @@
         <p class="title"><a href="https://arxiv.org/abs/1908.08691" target="_blank"><b>On VR Spatial Query for Dual Entangled Worlds</b></a></i></p>
         <p>with Ying-Chun Lin, Hsu-Chao Lai, Wang-Chien Lee, De-Nian Yang</p>
         <p>In 28th ACM International Conference on Information and Knowledge Management <b>(ACM CIKM 2019)</b>.</p>
-        [abstract] <a onclick="myCollapse('CIKM19')"><i class="fa fa-chevron-circle-down fa-1" aria-hidden="true" id="CIKM19-but"></i></a>
-        <div id="CIKM19" class="w3-container w3-hide">
+        
+        <p>
+            <button onclick="w3.toggleShow('#cikm19')">[abstract]</button>
+        </p>
+        <div id="cikm19" class="city">
             <ul>
                 With the rapid advent of Virtual Reality (VR) technology and virtual tour applications, there is a research need on spatial queries tailored for simultaneous movements in both the physical and virtual worlds. Traditional spatial queries, designed mainly for one world, do not consider the entangled dual worlds in VR. In this paper, we first investigate the fundamental shortest-path query in VR as the building block for spatial queries, aiming to avoid hitting boundaries and obstacles in the physical environment by leveraging Redirected Walking (RW) in Computer Graphics. Specifically, we first formulate Dual-world Redirected-walking Obstacle-free Path (DROP) to find the minimum-distance path in the virtual world, which is constrained by the RW cost in the physical world to ensure immersive experience in VR. We prove DROP is NP-hard and design a fully polynomial-time approximation scheme, Dual Entangled World Navigation (DEWN), by finding Minimum Immersion Loss Range (MIL Range). Afterward, we show that the existing spatial query algorithms and index structures can leverage DEWN as a building block to support kNN and range queries in the dual worlds of VR. Experimental results and a user study with implementation in HTC VIVE manifest that DEWN outperforms the baselines with smoother RW operations in various VR scenarios.
             </ul>
