@@ -47,7 +47,7 @@ function hide(ID){
     <h4>Conference Proceedings (Full Research Papers)</h4>
 
     <div class="paper">
-        <p class="title"><a href="" target="_blank"><b>The Trees in the Forest: Characterizing Computing Students' Individual Help-seeking Approaches</b></a></i></p>
+        <p class="title"><a href="https://dl.acm.org/doi/10.1145/3632620.3671099" target="_blank"><b>The Trees in the Forest: Characterizing Computing Students' Individual Help-seeking Approaches</b></a></i></p>
         <p>with <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
         <p>In 20th ACM Conference on International Computing Education Research <b>(ACM ICER 2024)</b>.</p>
         <button onclick="toggle('icer24-abs'); hide('icer24-bib')">Abstract</button>
@@ -68,14 +68,23 @@ function hide(ID){
         <div id="icer24-bib" style="display:none">
             <pre>
                 <code>
-                To be added.
+                @inproceedings{DBLP:conf/icer/KoS24,
+                  author       = {Shao{-}Heng Ko and
+                                  Kristin Stephens{-}Martinez},
+                  title        = {The Trees in the Forest: Characterizing Computing Students' Individual
+                                  Help-Seeking Approaches},
+                  booktitle    = {{ICER} {(1)}},
+                  pages        = {343--358},
+                  publisher    = {{ACM}},
+                  year         = {2024}
+                }
                 </code>                
             </pre>
         </div>
     </div>
       
     <div class="paper">
-        <p class="title"><a href="https://users.cs.duke.edu/~ksm/pubs/sigcsets_2023_what-drives-students-to-office-hours.pdf" target="_blank"><b>What Drives Students to Office Hours: Individual Differences and Similarities</b></a></i></p>
+        <p class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3545945.3569777" target="_blank"><b>What Drives Students to Office Hours: Individual Differences and Similarities</b></a></i></p>
         <p>with <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
         <p>In 54th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2023)</b>.</p>
         <button onclick="toggle('sigcsets23-abs'); hide('sigcsets23-bib')">Abstract</button>
@@ -308,13 +317,24 @@ function hide(ID){
         <button onclick="toggle('sigcsets24poster-bib'); hide('sigcsets24poster-abs')">BibTex</button>
         <div id="sigcsets24poster-abs" style="display:none">
             <ul>
-                TBA
+                Although hybrid courses have become increasingly common in higher education, it remains uncertain whether a student's experience of a course is consistent between in-person and online modalities. To investigate this, we analyzed student modality and discussion data from the Spring 2023 offering of an elective data science course where students are allowed to attend each lecture in person or synchronously online. Our analysis revealed that there were, counter-intuitively, no statistically significant effects between students' modality mixes alone and their feelings of community and learning in the course. Rather, discussing peer instruction questions with others, particularly while attending class in person, was positively related with stronger feelings of community. However, we did not find a statistically significant relationship between students' discussions and perceptions of whether their modality mix supported their learning.
             </ul>
         </div>
         <div id="sigcsets24poster-bib" style="display:none">
             <pre>
                 <code>
-                TBA
+                @inproceedings{DBLP:conf/sigcse/OtmaniJKS24,
+                  author       = {Salma El Otmani and
+                                  Janet Jiang and
+                                  Shao{-}Heng Ko and
+                                  Kristin Stephens{-}Martinez},
+                  title        = {The Relationships Between Modality, Peer Instruction Discussion, and
+                                  Class Sentiment in Hybrid Courses},
+                  booktitle    = {{SIGCSE} {(2)}},
+                  pages        = {1634--1635},
+                  publisher    = {{ACM}},
+                  year         = {2024}
+                }
                 </code>                
             </pre>
         </div>
@@ -328,6 +348,20 @@ function hide(ID){
             <ul>
                Academic help-seeking is a vital part of students' self-regulated learning strategies. Computing students' help-seeking horizon has seen several transformations in the past 15 years such that past findings no longer capture current computing students' learning environment, motivating a dedicated study on computing students' help-seeking behavior. Building on extant works that on a single course or help source, my research investigates computing students' help-seeking behavior across different contexts. By analyzing students' help-seeking records, I found substantial individual differences in the kind of help sought in office hours. Other preliminary results include correlational analysis on students' help-seeking metrics and pattern analysis on students help-seeking event sequences.
             </ul>
+        </div>
+        <div id="icerdc-bib" style="display:none">
+            <pre>
+                <code>
+                @inproceedings{DBLP:conf/icer/Ko22,
+                  author       = {Shao{-}Heng Ko},
+                  title        = {Characterizing Computing Students' Academic Help-seeking Behavior},
+                  booktitle    = {{ICER} {(2)}},
+                  pages        = {73--75},
+                  publisher    = {{ACM}},
+                  year         = {2023}
+                }
+                </code>                
+            </pre>
         </div>
     </div>
 
