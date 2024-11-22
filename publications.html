@@ -44,14 +44,16 @@ function hide(ID){
     
 
 <div>
-    <h4>Conference Proceedings (Full Research Papers)</h4>
+    <h4>Conference Proceedings (Full Papers)</h4>
 
     <div class="paper">
-        <p class="title"><a href="" target="_blank"><b>Student Perceptions of the Help Resource Landscape</b></a></i></p>
-        <p>with <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a>, Matthew Zahn, <a href="https://cs.duke.edu/yesenia-velasco" target="_blank">Yesenia Velasco</a>, <a href="https://battestilli.wordpress.ncsu.edu/" target="_blank">Lina Battestilli</a>, <a href="https://sheckman.github.io/" target="_blank">Sarah Heckman</a></p>
-        <p>Forthcoming in 56th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2025)</b>.</p>
+        <p class="title"><a href="" target="_blank"><b>Student Perceptions of the Help Resource Landscape</b></a></i>
         <button onclick="toggle('sigcsets25-abs'); hide('sigcsets25-bib')">Abstract</button>
-        <button onclick="toggle('sigcsets25-bib'); hide('sigcsets25-abs')">BibTex</button>
+        <!--<button onclick="toggle('sigcsets25-bib'); hide('sigcsets25-abs')">BibTex</button>-->
+        </p>
+        <p>with <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a>, Matthew Zahn, <a href="https://cs.duke.edu/yesenia-velasco" target="_blank">Yesenia Velasco</a>, <a href="https://battestilli.wordpress.ncsu.edu/" target="_blank">Lina Battestilli</a>, <a href="https://sheckman.github.io/" target="_blank">Sarah Heckman</a></p>
+        <p>Forthcoming in 56th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2025)</b></p>
+
         <div id="sigcsets25-abs" style="display:none">
             <ul>
                 <b>Background and Context.</b> Existing works in computing students' help-seeking and resource selection identified an expanding set of important dimensions that students consider when choosing a help resource. However, most works either assume a predefined list of help resources or focus on one specific help resource, while the landscape of help resources evolve at a faster speed.<br>
@@ -75,11 +77,38 @@ function hide(ID){
     </div>
 
     <div class="paper">
-        <p class="title"><a href="https://dl.acm.org/doi/10.1145/3632620.3671099" target="_blank"><b>The Trees in the Forest: Characterizing Computing Students' Individual Help-seeking Approaches</b></a></i></p>
-        <p>with <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
-        <p>In 20th ACM Conference on International Computing Education Research <b>(ACM ICER 2024)</b>.</p>
+        <p class="title"><a href="" target="_blank"><b>Satisfactory for all: supporting mastery learning with human-in-the-loop assessments in a discrete mathematics course (Experience Report)</b></a></i>
+        <button onclick="toggle('cs230expreport-abs'); hide('cs230expreport-bib')">Abstract</button>
+        <!--<button onclick="toggle('cs230expreport-bib'); hide('cs230expreport-abs')">BibTex</button>-->
+        </p>
+        <p>with Alex Chao and Violet Pang</p>
+        <p>Forthcoming in 56th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2025)</b></p>
+
+        <div id="cs230expreport-abs" style="display:none">
+            <ul>
+                This experience report documents an attempt at embracing the "A's for all" and equitable grading frameworks in an introductory, proof writing-based discrete mathematics course for computer science majors (with N=138 students) at a medium-sized research-oriented university in the US. Unlike in introductory programming contexts, there is so far no reliable automated grading system that gives formative and adaptive feedback supporting the scope of a proof-based discrete mathematics course. We therefore faced the unique challenge of being unable to automate all assessments and directly offer all students unlimited attempts toward mastery.<br>
+
+                To address this issue, we adopted a hybrid approach in designing our formative assessments. Using the <i>Exemplary, Satisfactory, Not Yet,</i> and <i>Unassessable</i> (ESNU) discrete grading model, we required all students to get a Satisfactory or above in every question in every assignment within two rounds of human feedback. Students not meeting the goal after two attempts then consulted with course staff members in one-on-one interactions to get diagnostic feedback at any time at their convenience until the semester ended.<br>
+
+                We document our course policy design in detail, then present data that summarizes both the grading outcomes and student sentiments. We also discuss the lessons learned from our initiative and the necessary staff-side management practices that support our design. This report outlines an example of adopting the A's for all and equitable grading framework in a course context where not all contents can be made autogradable.
+            </ul>
+        </div>
+        <div id="cs230expreport-bib" style="display:none">
+            <pre>
+                <code>
+                TBA
+                </code>                
+            </pre>
+        </div>
+    </div>
+
+    <div class="paper">
+        <p class="title"><a href="https://dl.acm.org/doi/10.1145/3632620.3671099" target="_blank"><b>The Trees in the Forest: Characterizing Computing Students' Individual Help-seeking Approaches</b></a></i>
         <button onclick="toggle('icer24-abs'); hide('icer24-bib')">Abstract</button>
-        <button onclick="toggle('icer24-bib'); hide('icer24-abs')">BibTex</button>
+        <button onclick="toggle('icer24-bib'); hide('icer24-abs')">BibTex</button></p>
+        <p>with <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
+        <p>In 20th ACM Conference on International Computing Education Research <b>(ACM ICER 2024)</b></p>
+
         <div id="icer24-abs" style="display:none">
             <ul>
                 <b>Background and Context.</b> Academic help-seeking is vital to post-secondary computing students' effective and successful learning. However, most empirical works in this domain study students' help resource selection and utilization by aggregating the entire student body as a whole. Moreover, existing theoretical frameworks often implicitly assume that whether/how much a student seeks help from a specific resource only depends on context (the type of help needed and the properties of the resources), not the individual student.<br>
@@ -112,11 +141,12 @@ function hide(ID){
     </div>
       
     <div class="paper">
-        <p class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3545945.3569777" target="_blank"><b>What Drives Students to Office Hours: Individual Differences and Similarities</b></a></i></p>
-        <p>with <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
-        <p>In 54th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2023)</b>.</p>
+        <p class="title"><a href="https://dl.acm.org/doi/abs/10.1145/3545945.3569777" target="_blank"><b>What Drives Students to Office Hours: Individual Differences and Similarities</b></a></i>
         <button onclick="toggle('sigcsets23-abs'); hide('sigcsets23-bib')">Abstract</button>
-        <button onclick="toggle('sigcsets23-bib'); hide('sigcsets23-abs')">BibTex</button>
+        <button onclick="toggle('sigcsets23-bib'); hide('sigcsets23-abs')">BibTex</button></p>
+        <p>with <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
+        <p>In 54th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2023)</b></p>
+
         <div id="sigcsets23-abs" style="display:none">
             <ul>
                 Undergraduate teaching assistants (UTAs) office hours are an approachable way for students to get help, but little is known about why and for what do the students choose to attend office hours. We sought to understand what kind of help the students believe they need by analyzing the problem-solving step students self-reported when joining the office hours queue app. We used the UPIC framework to aggregate course specific problem-solving steps to enable comparing between seven data sets from a CS1 and a data science course across four semesters. We then compared the class-level and student-level phase distributions to understand the differences between the two courses and the two levels in the courses. We found most students have a "primary phase" where a majority of their interactions fall, and there are significant individual differences in their phase distributions. Moreover, we did not find either students' demographics or the context of their first visits to significantly impact their individual differences in the phase distributions, suggesting students may have fixed beliefs on how to approach office hours. Finally, a strong majority of interactions happen within 3 days of the deadline, such that the UPIC distribution for those days looks like the class-level phase distribution.
@@ -140,11 +170,12 @@ function hide(ID){
     </div>
 
     <div class="paper">
-        <p class="title"><a href="https://arxiv.org/abs/2210.11643" target="_blank"><b>All Politics is Local: Redistricting via Local Fairness</b></a></i></p>
-        <p>with <a href="https://sites.google.com/view/cerintaylor/home" target="_blank">Erin Taylor</a>, <a href="https://users.cs.duke.edu/~pankaj/" target="_blank">Pankaj Agarwal</a>, <a href="https://www.kameshmunagala.org/" target="_blank">Kamesh Munagala</a></p>
-        <p>In 36th Conference on Neural Information Processing Systems <b>(NeurIPS 2022)</b>.</p>
+        <p class="title"><a href="https://arxiv.org/abs/2210.11643" target="_blank"><b>All Politics is Local: Redistricting via Local Fairness</b></a></i>
         <button onclick="toggle('neurips22-abs'); hide('neurips22-bib')">Abstract</button>
-        <button onclick="toggle('neurips22-bib'); hide('neurips22-abs')">BibTex</button>
+        <button onclick="toggle('neurips22-bib'); hide('neurips22-abs')">BibTex</button></p>
+        <p>with <a href="https://sites.google.com/view/cerintaylor/home" target="_blank">Erin Taylor</a>, <a href="https://users.cs.duke.edu/~pankaj/" target="_blank">Pankaj Agarwal</a>, <a href="https://www.kameshmunagala.org/" target="_blank">Kamesh Munagala</a></p>
+        <p>In 36th Conference on Neural Information Processing Systems <b>(NeurIPS 2022)</b></p>
+
         <div id="neurips22-abs" style="display:none">
             <ul>
                 In this paper, we propose to use the concept of local fairness for auditing and ranking redistricting plans. Given a redistricting plan, a deviating group is a population-balanced contiguous region in which a majority of individuals are of the same interest and in the minority of their respective districts; such a set of individuals have a justified complaint with how the redistricting plan was drawn. A redistricting plan with no deviating groups is called locally fair. We show that the problem of auditing a given plan for local fairness is NP-complete. We present an MCMC approach for auditing as well as ranking redistricting plans. We also present a dynamic programming based algorithm for the auditing problem that we use to demonstrate the efficacy of our MCMC approach. Using these tools, we test local fairness on real-world election data, showing that it is indeed possible to find plans that are almost or exactly locally fair. Further, we show that such plans can be generated while sacrificing very little in terms of compactness and existing fairness measures such as competitiveness of the districts or seat shares of the plans.
@@ -168,12 +199,12 @@ function hide(ID){
     </div>
 
     <div class="paper">
-        <p class="title"><a href="https://arxiv.org/abs/2205.04687" target="_blank"><b>Optimal Price Discrimination for Randomized Mechanisms</b></a></i></p>
-        <p>with <a href="https://www.kameshmunagala.org/" target="_blank">Kamesh Munagala</a></p>
-        <p>In 23rd ACM Conference on Economics and Computation <b>(ACM EC 2022)</b>.</p>
-
+        <p class="title"><a href="https://arxiv.org/abs/2205.04687" target="_blank"><b>Optimal Price Discrimination for Randomized Mechanisms</b></a></i>
         <button onclick="toggle('ec22-abs'); hide('ec22-bib')">Abstract</button>
-        <button onclick="toggle('ec22-bib'); hide('ec22-abs')">BibTex</button>
+        <button onclick="toggle('ec22-bib'); hide('ec22-abs')">BibTex</button></p>
+        <p>with <a href="https://www.kameshmunagala.org/" target="_blank">Kamesh Munagala</a></p>
+        <p>In 23rd ACM Conference on Economics and Computation <b>(ACM EC 2022)</b></p>
+
         <div id="ec22-abs" style="display:none">
             <ul>
                 We study the power of price discrimination via an intermediary in bilateral trade, when there is a revenue-maximizing seller selling an item to a buyer with a private value drawn from a prior. Between the seller and the buyer, there is an intermediary that can segment the market by releasing information about the true values to the seller. This is termed signaling, and enables the seller to price discriminate. In this setting, Bergemann et al. showed the existence of a signaling scheme that simultaneously raises the optimal consumer surplus, guarantees the item always sells, and ensures the seller's revenue does not increase.
@@ -199,12 +230,13 @@ function hide(ID){
     </div>
 
     <div class="paper">
-        <p class="title"><a href="https://arxiv.org/abs/2112.06899" target="_blank"><b>Locally Fair Partitioning</b></a></i></p>
-        <p>with <a href="https://users.cs.duke.edu/~pankaj/" target="_blank">Pankaj Agarwal</a>, <a href="https://www.kameshmunagala.org/" target="_blank">Kamesh Munagala</a>, <a href="https://sites.google.com/view/cerintaylor/home" target="_blank">Erin Taylor</a></p>
-        <p>In 36th AAAI Conference on Artificial Intelligence <b>(AAAI 2022)</b>.</p>
-
+        <p class="title"><a href="https://arxiv.org/abs/2112.06899" target="_blank"><b>Locally Fair Partitioning</b></a></i>
         <button onclick="toggle('aaai22-abs'); hide('aaai22-bib')">Abstract</button>
-        <button onclick="toggle('aaai22-bib'); hide('aaai22-abs')">BibTex</button>
+        <button onclick="toggle('aaai22-bib'); hide('aaai22-abs')">BibTex</button></p>
+        <p>with <a href="https://users.cs.duke.edu/~pankaj/" target="_blank">Pankaj Agarwal</a>, <a href="https://www.kameshmunagala.org/" target="_blank">Kamesh Munagala</a>, <a href="https://sites.google.com/view/cerintaylor/home" target="_blank">Erin Taylor</a></p>
+        <p>In 36th AAAI Conference on Artificial Intelligence <b>(AAAI 2022)</b></p>
+
+        
         <div id="aaai22-abs" style="display:none">
             <ul>
                 We model the societal task of redistricting political districts as a partitioning problem: Given a set of n points in the plane, each belonging to one of two parties, and a parameter k, our goal is to compute a partition Π of the plane into regions so that each region contains roughly σ=n/k points. Π should satisfy a notion of "local" fairness, which is related to the notion of core, a well-studied concept in cooperative game theory. A region is associated with the majority party in that region, and a point is unhappy in Π if it belongs to the minority party. A group D of roughly σ contiguous points is called a deviating group with respect to Π if majority of points in D are unhappy in Π. The partition Π is locally fair if there is no deviating group with respect to Π.
@@ -231,12 +263,13 @@ function hide(ID){
     </div>
 
     <div class="paper">
-        <p class="title"><a href="https://arxiv.org/abs/1908.08691" target="_blank"><b>On VR Spatial Query for Dual Entangled Worlds</b></a></i></p>
-        <p>with Ying-Chun Lin, Hsu-Chao Lai, Wang-Chien Lee, De-Nian Yang</p>
-        <p>In 28th ACM International Conference on Information and Knowledge Management <b>(ACM CIKM 2019)</b>.</p>
-        
+        <p class="title"><a href="https://arxiv.org/abs/1908.08691" target="_blank"><b>On VR Spatial Query for Dual Entangled Worlds</b></a></i>
         <button onclick="toggle('cikm19-abs'); hide('cikm19-bib')">Abstract</button>
-        <button onclick="toggle('cikm19-bib'); hide('cikm19-abs')">BibTex</button>
+        <button onclick="toggle('cikm19-bib'); hide('cikm19-abs')">BibTex</button></p>
+        <p>with Ying-Chun Lin, Hsu-Chao Lai, Wang-Chien Lee, De-Nian Yang</p>
+        <p>In 28th ACM International Conference on Information and Knowledge Management <b>(ACM CIKM 2019)</b></p>
+        
+        
         <div id="cikm19-abs" style="display:none">
             <ul>
                 With the rapid advent of Virtual Reality (VR) technology and virtual tour applications, there is a research need on spatial queries tailored for simultaneous movements in both the physical and virtual worlds. Traditional spatial queries, designed mainly for one world, do not consider the entangled dual worlds in VR. In this paper, we first investigate the fundamental shortest-path query in VR as the building block for spatial queries, aiming to avoid hitting boundaries and obstacles in the physical environment by leveraging Redirected Walking (RW) in Computer Graphics. Specifically, we first formulate Dual-world Redirected-walking Obstacle-free Path (DROP) to find the minimum-distance path in the virtual world, which is constrained by the RW cost in the physical world to ensure immersive experience in VR. We prove DROP is NP-hard and design a fully polynomial-time approximation scheme, Dual Entangled World Navigation (DEWN), by finding Minimum Immersion Loss Range (MIL Range). Afterward, we show that the existing spatial query algorithms and index structures can leverage DEWN as a building block to support kNN and range queries in the dual worlds of VR. Experimental results and a user study with implementation in HTC VIVE manifest that DEWN outperforms the baselines with smoother RW operations in various VR scenarios.
@@ -267,11 +300,12 @@ function hide(ID){
     <h4>Journal Articles</h4>
 
     <div class="paper">
-        <p class="title"><a href="https://www.vldb.org/pvldb/vol16/p615-yang.pdf" target="_blank"><b>Density Personalized Group Query</b></a></i></p>
+        <p class="title"><a href="https://www.vldb.org/pvldb/vol16/p615-yang.pdf" target="_blank"><b>Density Personalized Group Query</b></a></i>
+            <button onclick="toggle('vldb22-abs'); hide('vldb22-bib')">Abstract</button>
+        <button onclick="toggle('vldb22-bib'); hide('vldb22-abs')">BibTex</button></p>
         <p>with Chih-Ya Shen, Guang-Siang Lee, De-Nian Yang, Wang-Chien Lee</p>
-        <p>In Proceedings of the VLDB Endowment, Volume 16, Issue 4, December, 2022.</p>
-        <button onclick="toggle('vldb22-abs'); hide('vldb22-bib')">Abstract</button>
-        <button onclick="toggle('vldb22-bib'); hide('vldb22-abs')">BibTex</button>
+        <p>In Proceedings of the VLDB Endowment, Volume 16, Issue 4, December, 2022</p>
+        
         <div id="vldb22-abs" style="display:none">
             <ul>
                 Research on new queries for finding dense subgraphs and groups has been actively pursued due to their many applications, especially in social network analysis and graph mining. However, existing work faces two major weaknesses: i) incapability of supporting personalized neighborhood density, and ii) inability to find sparse groups. To tackle the above issues, we propose a new query, called Density-Customized Social Group Query (DCSGQ), that accommodates the need for personalized density by allowing individual users to flexibly configure their social tightness (and sparseness) for the target group. The proposed DCSGQ is general due to flexible in configuration of neighboring social density in queries. We prove the NP-hardness and inapproximability of DCSGQ, formulate an Integer Program (IP) as a baseline, and propose an efficient algorithm, FSGSel-RR, by relaxing the IP. We then propose a fixed-parameter tractable algorithm with a performance guarantee, named FSGSel-TD, and further combine it with FSGSel-RR into a hybrid approach, named FSGSel-Hybrid, in order to strike a good balance between solution quality and efficiency. Extensive experiments on multiple large real datasets demonstrate the superior solution quality and efficiency of our approaches over existing subgraph and group queries.
@@ -299,12 +333,12 @@ function hide(ID){
     </div>
 
     <div class="paper">
-        <p class="title"><a href="https://arxiv.org/abs/2002.04338" target="_blank"><b>Optimizing Item and Subgroup Configurations for Social-Aware VR Shopping</b></a></i></p>
-        <p>with Hsu-Chao Lai, Hong-Han Shuai, De-Nian Yang, Wang-Chien Lee, Philip S. Yu</p>
-        <p>In Proceedings of the VLDB Endowment, Volume 13, Issue 8, April, 2020.</p>
-
+        <p class="title"><a href="https://arxiv.org/abs/2002.04338" target="_blank"><b>Optimizing Item and Subgroup Configurations for Social-Aware VR Shopping</b></a></i>
         <button onclick="toggle('vldb20-abs'); hide('vldb20-bib')">Abstract</button>
-        <button onclick="toggle('vldb20-bib'); hide('vldb20-abs')">BibTex</button>
+        <button onclick="toggle('vldb20-bib'); hide('vldb20-abs')">BibTex</button></p>
+        <p>with Hsu-Chao Lai, Hong-Han Shuai, De-Nian Yang, Wang-Chien Lee, Philip S. Yu</p>
+        <p>In Proceedings of the VLDB Endowment, Volume 13, Issue 8, April, 2020</p>
+        
         <div id="vldb20-abs" style="display:none">
             <ul>
                 Shopping in VR malls has been regarded as a paradigm shift for E-commerce, but most of the conventional VR shopping platforms are designed for a single user. In this paper, we envisage a scenario of VR group shopping, which brings major advantages over conventional group shopping in brick-and-mortar stores and Web shopping: 1) configure flexible display of items and partitioning of subgroups to address individual interests in the group, and 2) support social interactions in the subgroups to boost sales. Accordingly, we formulate the Social-aware VR Group-Item Configuration (SVGIC) problem to configure a set of displayed items for flexibly partitioned subgroups of users in VR group shopping. We prove SVGIC is NP-hard to approximate within (32/31)−ϵ. We design an approximation algorithm based on the idea of Co-display Subgroup Formation (CSF) to configure proper items for display to different subgroups of friends. Experimental results on real VR datasets and a user study with hTC VIVE manifest that our algorithms outperform baseline approaches by at least 30.1% of solution quality.
@@ -338,35 +372,12 @@ function hide(ID){
     <h4>Other</h4>
 
     <div class="paper">
-        <p class="title"><a href="" target="_blank"><b>Satisfactory for all: supporting mastery learning with human-in-the-loop assessments in a discrete mathematics course (Experience Report)</b></a></i></p>
-        <p>with Alex Chao and Violet Pang</p>
-        <p>Forthcoming in 56th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2025)</b>.</p>
-        <button onclick="toggle('cs230expreport-abs'); hide('cs230expreport-bib')">Abstract</button>
-        <button onclick="toggle('cs230expreport-bib'); hide('cs230expreport-abs')">BibTex</button>
-        <div id="cs230expreport-abs" style="display:none">
-            <ul>
-                This experience report documents an attempt at embracing the ``A's for all'' and equitable grading frameworks in an introductory, proof writing-based discrete mathematics course for computer science majors (with $N=138$ students) at a medium-sized research-oriented university in the US. Unlike in introductory programming contexts, there is so far no reliable automated grading system that gives formative and adaptive feedback supporting the scope of a proof-based discrete mathematics course. We therefore faced the unique challenge of being unable to automate all assessments and directly offer all students unlimited attempts toward mastery. <br>
-
-                To address this issue, we adopted a hybrid approach in designing our formative assessments. Using the <i>Exemplary, Satisfactory, Not Yet,</i> and <i>Unassessable</i> (ESNU) discrete grading model, we required all students to get a Satisfactory or above in every question in every assignment within two rounds of human feedback. Students not meeting the goal after two attempts then consulted with course staff members in one-on-one interactions to get diagnostic feedback at any time at their convenience until the semester ended.<br>
-
-                We document our course policy design in detail, then present data that summarizes both the grading outcomes and student sentiments. We also discuss the lessons learned from our initiative and the necessary staff-side management practices that support our design. This report outlines an example of adopting the A's for all and equitable grading framework in a course context where not all contents can be made autogradable.
-            </ul>
-        </div>
-        <div id="cs230expreport-bib" style="display:none">
-            <pre>
-                <code>
-                TBA
-                </code>                
-            </pre>
-        </div>
-    </div>
-
-    <div class="paper">
-        <p class="title"><a href="" target="_blank"><b>The Relationships Between Modality, Peer Instruction Discussion, and Class Sentiment in Hybrid Courses</b></a></i></p>
-        <p>with Salma El Otmani, Janet Jiang, and <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
-        <p>In 55th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2024)</b>.</p>
+        <p class="title"><a href="" target="_blank"><b>The Relationships Between Modality, Peer Instruction Discussion, and Class Sentiment in Hybrid Courses</b></a></i>
         <button onclick="toggle('sigcsets24poster-abs'); hide('sigcsets24poster-bib')">Abstract</button>
-        <button onclick="toggle('sigcsets24poster-bib'); hide('sigcsets24poster-abs')">BibTex</button>
+        <button onclick="toggle('sigcsets24poster-bib'); hide('sigcsets24poster-abs')">BibTex</button></p>
+        <p>with Salma El Otmani, Janet Jiang, and <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
+        <p>In 55th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2024)</b></p>
+
         <div id="sigcsets24poster-abs" style="display:none">
             <ul>
                 Although hybrid courses have become increasingly common in higher education, it remains uncertain whether a student's experience of a course is consistent between in-person and online modalities. To investigate this, we analyzed student modality and discussion data from the Spring 2023 offering of an elective data science course where students are allowed to attend each lecture in person or synchronously online. Our analysis revealed that there were, counter-intuitively, no statistically significant effects between students' modality mixes alone and their feelings of community and learning in the course. Rather, discussing peer instruction questions with others, particularly while attending class in person, was positively related with stronger feelings of community. However, we did not find a statistically significant relationship between students' discussions and perceptions of whether their modality mix supported their learning.
@@ -393,27 +404,12 @@ function hide(ID){
     </div>
 
     <div class="paper">
-        <p class="title"><a href="documents/icerdc.pdf" target="_blank"><b>Characterizing Computing Students' Help-Seeking Behavior (Extended Abstract)</b></a></i></p>
+        <p class="title"><a href="documents/icerdc.pdf" target="_blank"><b>Characterizing Computing Students' Help-Seeking Behavior (Extended Abstract)</b></a></i><button onclick="toggle('icerdc-abs')">Abstract</button></p>
         <p>In 19th ACM Conference on International Computing Education Research <b>(ICER 2023 Doctoral Consortium)</b></p>
-        <button onclick="toggle('icerdc-abs')">Abstract</button>
         <div id="icerdc-abs" style="display:none">
             <ul>
                Academic help-seeking is a vital part of students' self-regulated learning strategies. Computing students' help-seeking horizon has seen several transformations in the past 15 years such that past findings no longer capture current computing students' learning environment, motivating a dedicated study on computing students' help-seeking behavior. Building on extant works that on a single course or help source, my research investigates computing students' help-seeking behavior across different contexts. By analyzing students' help-seeking records, I found substantial individual differences in the kind of help sought in office hours. Other preliminary results include correlational analysis on students' help-seeking metrics and pattern analysis on students help-seeking event sequences.
             </ul>
-        </div>
-        <div id="icerdc-bib" style="display:none">
-            <pre>
-                <code>
-                @inproceedings{DBLP:conf/icer/Ko22,
-                  author       = {Shao{-}Heng Ko},
-                  title        = {Characterizing Computing Students' Academic Help-seeking Behavior},
-                  booktitle    = {{ICER} {(2)}},
-                  pages        = {73--75},
-                  publisher    = {{ACM}},
-                  year         = {2023}
-                }
-                </code>                
-            </pre>
         </div>
     </div>
 
