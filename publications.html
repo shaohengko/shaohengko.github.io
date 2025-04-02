@@ -362,21 +362,40 @@ function hide(ID){
 
     <div class="paper">
         <p class="title"><a href="https://dl.acm.org/doi/10.1145/3716860" target="_blank"><b>Rethinking computing students' help resource utilization through sequentiality</b></a></i>
-        <button onclick="toggle('sigcsets25-abs'); hide('sigcsets25-bib')">Abstract</button>
-        <!--<button onclick="toggle('sigcsets25-bib'); hide('sigcsets25-abs')">BibTex</button>-->
+        <button onclick="toggle('toce25-abs'); hide('toce25-bib')">Abstract</button>
+        <button onclick="toggle('toce25-bib'); hide('toce25-abs')">BibTex</button>
         </p>
         <p><u>Shao-Heng Ko</u>, <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
-        <p>Forthcoming in ACM Transactions on Computing Education <b>(ACM TOCE)</b></p>
+        <p>In ACM Transactions on Computing Education <b>(TOCE)</b>, Volume 25, Issue 1, April, 2025</p>
         
         <div id="toce25-abs" style="display:none">
             <ul>
-                To be added.
+                <b>Background.</b> Academic help-seeking benefits students' achievement, but existing literature either studies important factors in students' selection of all help resources via self-reported surveys or studies their help-seeking behavior in one or two separate help resources via actual help-seeking records. Little is known about whether computing students' approaches and behavior match, and not much is understood about how they transition sequentially from one help resource to another.<br>
+
+                <b>Objectives.</b> We aim to study post-secondary computing students' academic help-seeking approach and behavior. Specifically, we seek to investigate students' self-reported orders of resource usage and whether these approaches match with students' actual utilization of help resources. We also examine frequent patterns emerging from students' chronological help-seeking records in course-affiliated help resources.<br>
+
+                <b>Context and Study Method.</b> We surveyed students' self-reported orders of resource usage across 12 offerings of seven courses at two institutions, then analyzed their responses using various help resource dimensions identified by existing works. From two of these courses (an introduction to programming course and a data science course, 11 offerings), we obtained students' help-seeking records in all course-affiliated help resources, along with code autograder records. We then compared students' reported orders in these two courses against their actions in the records. Finally, we mined sequences of student help-seeking events from these two courses to reveal frequent sequential patterns.<br>
+
+                <b>Findings.</b> Students' reported orders of help resource usage form a progression of clusters where resources in each cluster are more similar to each other by help resource dimensions than to resources outside of their cluster. This progression partially confirms phenomena and decision factors reported by existing literature, but no factor/dimension alone can explain the entire progression. We found students' actual help-seeking records did not deviate much from their self-reported orders. Mining of the sequential records revealed that help-seeking from course-affiliated human resources led to measurable progress more often than not, and students' usage of consulting/office hours (mainly run by undergraduate teaching assistants) itself was the best indicator for future usage within the lifespan of the same assignment.<br>
+
+                <b>Implications.</b> Our results demonstrate that computing students' help resource selection/utilization is a sophisticated process that should be modeled and analyzed with sufficient awareness of its inherent sequentiality. We identify future research directions through this preliminary analysis, which can lead to a better understanding of computing students' help-seeking behavior and better resource utilization/management in large-scale instructional contexts.<br>
             </ul>
         </div>
         <div id="toce25-bib" style="display:none">
             <pre>
                 <code>
-                To be added.
+                @article{ko2025rethinking,
+                    author      = {Shao{-}Heng Ko and
+                                   Kristin Stephens{-}Martinez},
+                    title       = {Rethinking computing students' help resource utilization through sequentiality},
+                    journal     = {{ACM Transactions on Computing Education (TOCE)}},
+                    volume      = {25},
+                    number      = {1},
+                    articleno   = {7},
+                    numpages    = {34},
+                    year        = {2025},
+                    url         = {https://doi.org/10.1145/3716860}
+                }
                 </code>                
             </pre>
         </div>
