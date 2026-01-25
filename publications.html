@@ -32,7 +32,10 @@ function hide(ID){
                 <div class="off"><a href="index.html">About/News</a></div>        
                 <div class="on"> <a href="publications.html">Publications</a></div>
                 <div class="off"><a href="CV_SHK.pdf" target="_blank">CV</a></div> 
-                <div class="off"><a href="teaching.html">Teaching</a></div>
+                <div class="off"><a href="teaching.html">Teaching Experiences</a></div>
+                <div class="off"><a href="teaching.pdf" target="_blank">Teaching Statement</a></div>
+                <div class="off"><a href="research.pdf" target="_blank">Research Statement</a></div>
+                <div class="off"><a href="diversity.pdf" target="_blank">Diversity Statement</a></div>
                 <div class="off"><a href="https://medium.com/@shaohengko">Blog</a></div>
     </div> 
     
@@ -49,12 +52,48 @@ function hide(ID){
     An author list starting with a "with" means the paper followed the convention of alphabetical author order, i.e., viewing every author's contribution as essential to the paper.<p> 
 
    <div class="paper">
+        <p class="title"><a href="" target="_blank"><b>Connecting Computing Students' External Help Resource Preferences and Internal Help Resource Usage: 2021-2025</b></a></i>
+        <button onclick="toggle('sigcsets26-abs'); hide('sigcsets26-bib')">Abstract</button>
+        <button onclick="toggle('sigcsets26-bib'); hide('sigcsets26-abs')">BibTex</button>
+        </p>
+        <p><u>Shao-Heng Ko</u>, <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
+        <p>Forthcoming in 57th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2026)</b></p>
+
+        <div id="sigcsets26-abs" style="display:none">
+            <ul>
+                <b>Background and Context.</b> Academic help-seeking from both internal (course-affiliated) and external resources is a key part of computing students' learning. The recent emergence of Generative AI (GenAI) tools has substantially transformed students' help-seeking, but our understanding of this impact remains limited.<br>
+
+                <b>Objectives.</b> We seek to understand the collective changes in computing students' (1) preferences of using external help resources and (2) usage of internal help resources, and the relationship between these two kinds of metrics at the individual level. We also seek to examine whether the relationship is subject to context influences.<br>
+
+                <b>Method.</b> We analyzed students' self-reported preferences for external resources and recorded usage of two internal resources in 26 offerings of four computing courses (N=3,921 total enrollments) at our institution over a timespan of eight 15-week terms.<br>
+
+                <b>Findings.</b> We find increases in students' preferences for external resources and decreases in their usage of internal resources in some but not all courses. We identify a substantial negative relationship between the two kinds of metrics at the individual level, but its strength depends on help resource and instructional context.<br>
+            </ul>
+        </div>
+        <div id="sigcsets26-bib" style="display:none">
+            <pre>
+                <code>
+                @inproceedings{ko2026connecting,
+                  author    = {Shao{-}Heng Ko and
+                               Kristin Stephens{-}Martinez},
+                  title     = {{Connecting Computing Students' External Help Resource Preferences and Internal Help Resource Usage: 2021-2025}},
+                  booktitle = {{ACM} {SIGCSE} {TS}},
+                  pages     = {TBD},
+                  year      = {2026},
+                  url       = {TBD}
+                }
+                </code>                
+            </pre>
+        </div>
+    </div>
+
+   <div class="paper">
         <p class="title"><a href="" target="_blank"><b>Relationships Between Computing Students' Characteristics, Help-Seeking Approaches, and Help-Seeking Behavior in Introductory Courses and Beyond</b></a></i>
         <button onclick="toggle('icer25-abs'); hide('icer25-bib')">Abstract</button>
         <button onclick="toggle('icer25-bib'); hide('icer25-abs')">BibTex</button>
         </p>
         <p><u>Shao-Heng Ko</u>, Matthew Zahn, <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a>, <a href="https://cs.duke.edu/yesenia-velasco" target="_blank">Yesenia Velasco</a>, <a href="https://battestilli.wordpress.ncsu.edu/" target="_blank">Lina Battestilli</a>, <a href="https://sheckman.github.io/" target="_blank">Sarah Heckman</a></p>
-        <p>Forthcoming in The 21st ACM Conference on International Computing Education Research<b> (ACM ICER 2025)</b></p>
+        <p>In The 21st ACM Conference on International Computing Education Research<b> (ACM ICER 2025)</b></p>
 
         <div id="icer25-abs" style="display:none">
             <ul>
@@ -96,7 +135,7 @@ function hide(ID){
         <button onclick="toggle('iticse25-bib'); hide('iticse25-abs')">BibTex</button>
         </p>
         <p><u>Shao-Heng Ko</u>, <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
-        <p>Forthcoming in 30th Innovation and Technology in Computer Science Education<b> (ACM ITiCSE 2025)</b></p>
+        <p>In 30th Innovation and Technology in Computer Science Education<b> (ACM ITiCSE 2025)</b></p>
 
         <div id="iticse25-abs" style="display:none">
             <ul>
@@ -117,7 +156,7 @@ function hide(ID){
                 @inproceedings{ko2025prior,
                   author    = {Shao{-}Heng Ko and
                                Kristin Stephens{-}Martinez},
-                  title     = {{Prior What Experience? The Relationship Between Prior Experience and Student Help-Seeking Beyond CS1}},
+                  title     = {Prior What Experience? {The} Relationship Between Prior Experience and Student Help-Seeking Beyond {CS1}},
                   booktitle = {{ACM} {ITiCSE}},
                   pages     = {100--106},
                   year      = {2025},
@@ -193,9 +232,8 @@ function hide(ID){
                 @inproceedings{ko2025satisfactory,
                     author      = {Shao{-}Heng Ko and
                                    Alex Chao and
-                                   Violet Pang
-                                   },
-                    title       = {Satisfactory for all: supporting mastery learning with human-in-the-loop assessments in a discrete math course},
+                                   Violet Pang},
+                    title       = {Satisfactory for all: Supporting mastery learning with human-in-the-loop assessments in a discrete math course},
                     booktitle   = {{ACM} {SIGCSE} {TS}},
                     pages       = {589--595},
                     year        = {2025},
@@ -261,7 +299,7 @@ function hide(ID){
                 @inproceedings{ko2023whatdrives,
                   author    = {Shao{-}Heng Ko and
                                Kristin Stephens{-}Martinez},
-                  title     = {What drives students to office hours: individual differences and similarities},
+                  title     = {What drives students to office hours: Individual differences and similarities},
                   booktitle = {{ACM} {SIGCSE} {TS}},
                   pages     = {959--965},
                   year      = {2023},
@@ -287,7 +325,7 @@ function hide(ID){
         <div id="neurips22-bib" style="display:none">
             <pre>
                 <code>
-                @inproceedings{DBLP:conf/nips/Ko0AM22,
+                @inproceedings{ko2022all,
                   author       = {Shao{-}Heng Ko and
                                   Erin Taylor and
                                   Pankaj K. Agarwal and
@@ -318,13 +356,12 @@ function hide(ID){
         <div id="ec22-bib" style="display:none">
             <pre>
                 <code>
-                @inproceedings{DBLP:conf/sigecom/KoM22,
+                @inproceedings{ko22optimal,
                   author       = {Shao{-}Heng Ko and
                                   Kamesh Munagala},
                   title        = {Optimal Price Discrimination for Randomized Mechanisms},
-                  booktitle    = {{EC}},
+                  booktitle    = {{ACM} {EC}},
                   pages        = {477--496},
-                  publisher    = {{ACM}},
                   year         = {2022}
                 }
                 </code>                
@@ -349,7 +386,7 @@ function hide(ID){
         <div id="aaai22-bib" style="display:none">
             <pre>
                 <code>
-                @inproceedings{DBLP:conf/aaai/AgarwalKM022,
+                @inproceedings{agarwal22locally,
                   author       = {Pankaj K. Agarwal and
                                   Shao{-}Heng Ko and
                                   Kamesh Munagala and
@@ -357,7 +394,6 @@ function hide(ID){
                   title        = {Locally Fair Partitioning},
                   booktitle    = {{AAAI}},
                   pages        = {4752--4759},
-                  publisher    = {{AAAI} Press},
                   year         = {2022}
                 }
                 </code>                
@@ -381,16 +417,15 @@ function hide(ID){
         <div id="cikm19-bib" style="display:none">
             <pre>
                 <code>
-                @inproceedings{DBLP:conf/cikm/KoLLLY19,
+                @inproceedings{ko2019onvr,
                   author       = {Shao{-}Heng Ko and
                                   Ying{-}Chun Lin and
                                   Hsu{-}Chao Lai and
                                   Wang{-}Chien Lee and
                                   De{-}Nian Yang},
                   title        = {On {VR} Spatial Query for Dual Entangled Worlds},
-                  booktitle    = {{CIKM}},
+                  booktitle    = {{ACM} {CIKM}},
                   pages        = {9--18},
-                  publisher    = {{ACM}},
                   year         = {2019}
                 }
                 </code>                
@@ -458,7 +493,7 @@ function hide(ID){
         <div id="vldb22-bib" style="display:none">
             <pre>
                 <code>
-                @article{DBLP:journals/pvldb/ShenKLLY22,
+                @article{shen2022density,
                   author       = {Chih{-}Ya Shen and
                                   Shao{-}Heng Ko and
                                   Guang{-}Siang Lee and
@@ -491,7 +526,7 @@ function hide(ID){
         <div id="vldb20-bib" style="display:none">
             <pre>
                 <code>
-                @article{DBLP:journals/pvldb/KoLSLYY20,
+                @article{ko2020optimizing,
                   author       = {Shao{-}Heng Ko and
                                   Hsu{-}Chao Lai and
                                   Hong{-}Han Shuai and
@@ -514,50 +549,7 @@ function hide(ID){
 
 <div>
     <h4>Other</h4>
-
-    <div class="paper">
-        <p class="title"><a href="" target="_blank"><b>The Relationships Between Modality, Peer Instruction Discussion, and Class Sentiment in Hybrid Courses</b></a></i>
-        <button onclick="toggle('sigcsets24poster-abs'); hide('sigcsets24poster-bib')">Abstract</button>
-        <button onclick="toggle('sigcsets24poster-bib'); hide('sigcsets24poster-abs')">BibTex</button></p>
-        <p>Salma El Otmani, Janet Jiang, <u>Shao-Heng Ko</u>, <a href="https://users.cs.duke.edu/~ksm/" target="_blank">Kristin Stephens-Martinez</a></p>
-        <p>In 55th Technical Symposium on Computer Science Education <b>(ACM SIGCSE TS 2024)</b></p>
-
-        <div id="sigcsets24poster-abs" style="display:none">
-            <ul>
-                Although hybrid courses have become increasingly common in higher education, it remains uncertain whether a student's experience of a course is consistent between in-person and online modalities. To investigate this, we analyzed student modality and discussion data from the Spring 2023 offering of an elective data science course where students are allowed to attend each lecture in person or synchronously online. Our analysis revealed that there were, counter-intuitively, no statistically significant effects between students' modality mixes alone and their feelings of community and learning in the course. Rather, discussing peer instruction questions with others, particularly while attending class in person, was positively related with stronger feelings of community. However, we did not find a statistically significant relationship between students' discussions and perceptions of whether their modality mix supported their learning.
-            </ul>
-        </div>
-        <div id="sigcsets24poster-bib" style="display:none">
-            <pre>
-                <code>
-                @inproceedings{DBLP:conf/sigcse/OtmaniJKS24,
-                  author       = {Salma El Otmani and
-                                  Janet Jiang and
-                                  Shao{-}Heng Ko and
-                                  Kristin Stephens{-}Martinez},
-                  title        = {The Relationships Between Modality, Peer Instruction Discussion, and
-                                  Class Sentiment in Hybrid Courses},
-                  booktitle    = {{SIGCSE} {(2)}},
-                  pages        = {1634--1635},
-                  publisher    = {{ACM}},
-                  year         = {2024}
-                }
-                </code>                
-            </pre>
-        </div>
-    </div>
-
-    <div class="paper">
-        <p class="title"><a href="icerdc.pdf" target="_blank"><b>Characterizing Computing Students' Help-Seeking Behavior (Extended Abstract)</b></a></i><button onclick="toggle('icerdc-abs')">Abstract</button></p>
-        <p><u>Shao-Heng Ko</u></p>
-        <p>In 19th ACM Conference on International Computing Education Research <b>(ICER 2023 Doctoral Consortium)</b></p>
-        <div id="icerdc-abs" style="display:none">
-            <ul>
-               Academic help-seeking is a vital part of students' self-regulated learning strategies. Computing students' help-seeking horizon has seen several transformations in the past 15 years such that past findings no longer capture current computing students' learning environment, motivating a dedicated study on computing students' help-seeking behavior. Building on extant works that on a single course or help source, my research investigates computing students' help-seeking behavior across different contexts. By analyzing students' help-seeking records, I found substantial individual differences in the kind of help sought in office hours. Other preliminary results include correlational analysis on students' help-seeking metrics and pattern analysis on students help-seeking event sequences.
-            </ul>
-        </div>
-    </div>
-
+    Please see my <a href="https://dblp.org/pid/247/6227.html" target="_blank">DBLP page</a> for conference posters, doctoral consortium extended abstracts, working group reports, and preprint versions of some of the papers above.
 </div>
 
 </div>
